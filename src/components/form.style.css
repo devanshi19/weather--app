@@ -1,0 +1,51 @@
+.form-control{
+      margin-top: 20px;
+     
+    }
+.container{
+  margin-top: 20px;
+  margin-left:100px;
+  color:white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 2px 2px rgba(61, 61, 73, 0.75);
+  
+}
+form input[name="city"],form input[name="country"]{
+  background-color: rgba(255,255,255,0.5);
+  color:black;
+  border: none;
+  outline: none;
+  border-bottom:2px solid whitesmoke;
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 4px 4px 8px #201f1f;
+}
+.btn{
+  box-shadow: 4px 4px 8px #888888;
+  border:0;
+  border-radius:  0px 0px 16px 16px;
+}
+form input:focus{
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+/*.App{
+  background-image: url('../assets/bg3.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition:0.4 ease-out;
+ 
+}*/ 
+.main{
+  background-image:linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.75));
+}
+
+
+/* .cards{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 16px;
+  padding:  121px;
+} */
